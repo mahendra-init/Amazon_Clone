@@ -12,10 +12,9 @@ import Payment from './Components/Payment';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import Orders from './Components/Orders';
-import { stripe_publicKey } from './config';
 
 const promise = loadStripe(
-  stripe_publicKey
+  `${process.env.REACT_APP_PUBLIC_KEY}`
 );
 
 function App() {

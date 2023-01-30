@@ -2,8 +2,7 @@ const functions = require("firebase-functions");
 const express = require('express');
 const cors = require('cors');
 const { response } = require("express");
-import { stripe_privateKey } from './config';
-const stripe = require('stripe')(stripe_privateKey)
+const stripe = require('stripe')(`${process.env.REACT_APP_PRIVATE_KEY}`)
 
 
 const app = express();
