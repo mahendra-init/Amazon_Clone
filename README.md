@@ -40,6 +40,6 @@ This project is licensed under the MIT License.
 
 
 ### **Acknowledgments**
-- **[ReactJS Documentation]**(https://reactjs.org/docs/getting-started.html)
-- **[Stripe Documentation]**(https://stripe.com/docs)
-- **[Firebase Documentation]**(https://firebase.google.com/docs)
+- **[ReactJS Documentation](https://reactjs.org/docs/getting-started.html)**
+- **[Stripe Documentation](https://stripe.com/docs)**
+- **[Firebase Documentation](https://firebase.google.com/docs)**
